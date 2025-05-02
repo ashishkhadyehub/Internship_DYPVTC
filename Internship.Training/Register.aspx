@@ -8,12 +8,12 @@
     <div class="container mt-3">
      <div class="row">
          <div class="col-md-6">
-             <h2>Stacked form</h2>
+             <h2>Register</h2>
 
              <div class="mb-3 mt-3">
                  <label>Name:</label>
                  <asp:TextBox runat="server"   ID="txtName"  CssClass="form-control"></asp:TextBox>
-                 
+              
              </div>
              <div class="mb-3 mt-3">
                  <label>Contact:</label>
@@ -31,7 +31,7 @@
                  </asp:DropDownList>
 
              </div>
-             <asp:Button runat="server" CssClass="btn btn-primary" ID="btnSubmit" Text="Submit" />
+             <asp:Button runat="server" OnClick="btnSubmit_Click" CssClass="btn btn-primary" ID="btnSubmit" Text="Submit" />
               
          </div>
      </div>
