@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.Training", "Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.WebFormEMS", "Internship.WebFormEMS\Internship.WebFormEMS.csproj", "{E8079777-29E1-48DB-B30E-6452CC6A86E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.dotnetcoreSessions", "Internship.dotnetcoreSessions\Internship.dotnetcoreSessions.csproj", "{32EF1100-48A5-409B-8026-1B1239FB3713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E8079777-29E1-48DB-B30E-6452CC6A86E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8079777-29E1-48DB-B30E-6452CC6A86E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8079777-29E1-48DB-B30E-6452CC6A86E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EF1100-48A5-409B-8026-1B1239FB3713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF1100-48A5-409B-8026-1B1239FB3713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF1100-48A5-409B-8026-1B1239FB3713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF1100-48A5-409B-8026-1B1239FB3713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
