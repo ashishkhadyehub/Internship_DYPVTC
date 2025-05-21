@@ -22,12 +22,23 @@ namespace Internship.dotnetcoreSessions.Controllers
             //string name = "Shree";
             //return View("Index",name);
 
-            Students student = new Students();
-            student.Id = 6;
-            student.Name = "Shree";
-            student.City = "Pune";
+            //Students student = new Students();
+            //student.Id = 6;
+            //student.Name = "Shree";
+            //student.City = "Pune";
 
-            return View(student);
+
+
+            //return View(student);
+            //collection data type-list is generic collection
+            List<Students> studentList= new List<Students>();
+            studentList.Add(new Students { Id = 1, Name = "Shree", City = "Pune" });
+            studentList.Add(new Students { Id = 2, Name = "Test", City = "Mumbai" });
+            studentList.Add(new Students { Id = 3, Name = "ABC", City = "Kolhapur" });
+            studentList.Add(new Students { Id = 4, Name = "PQR", City = "Jaipur" });
+
+            return View(studentList);
+
         }
 
         public IActionResult Privacy()
