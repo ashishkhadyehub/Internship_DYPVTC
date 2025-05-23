@@ -13,5 +13,8 @@ namespace Internship.dotnetcoreSessions.Models
         public string Name { get; set; }
 
         public string City { get; set; }
+
+        
+
     }
 }
