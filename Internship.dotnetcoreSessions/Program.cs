@@ -1,7 +1,7 @@
-//DI container
 using Internship.dotnetcoreSessions.Data;
 using Microsoft.EntityFrameworkCore;
 
+//DI container
 var builder = WebApplication.CreateBuilder(args);
 
 

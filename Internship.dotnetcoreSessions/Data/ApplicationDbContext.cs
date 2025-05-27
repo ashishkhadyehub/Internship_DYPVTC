@@ -18,6 +18,8 @@ namespace Internship.dotnetcoreSessions.Data
 
         }
 
+       
+
         public DbSet<Students> Students { get; set; }
 
 
