@@ -1,5 +1,6 @@
 ﻿using LA.Models;
 using LA.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace LA.Repositories.Implementations
 
         public IEnumerable<State> GetAll()
         {
-            var states = _context.States.ToList();
+            var states = _context.States.Include(a=>a.Country).ToList();
             return states;
         }
 
