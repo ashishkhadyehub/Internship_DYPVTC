@@ -13,6 +13,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.AddScoped<IBranchRepo, BranchRepo>();
 builder.Services.AddScoped<IDeptRepo, DeptRepo>();
+builder.Services.AddScoped<IEmployeeRepo, EmployeeRepo>();
 
 //for checking login at views
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
